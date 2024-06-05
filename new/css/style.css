@@ -39,7 +39,7 @@ body{
 	background-color: #fff;
 	color: #767676;
 }
-a, a:visited, a:hover, a:active {
+a:visited{
 	color: inherit !important;
 }
 svg{
