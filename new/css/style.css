@@ -39,6 +39,9 @@ body{
 	background-color: #fff;
 	color: #767676;
 }
+a, a:visited, a:hover, a:active {
+	color: inherit !important;
+}
 svg{
 	fill: currentcolor;
 	width: 15px;
