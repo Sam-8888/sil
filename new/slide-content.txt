@@ -1,0 +1,36 @@
+<div class="hidden_content">
+				<div class="popup_details">
+								<div class="main_details">
+									<div class="textbox">
+										<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.</p>
+										<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.</p>
+									</div>
+									<div class="detailbox">
+										<ul>
+											<li>
+												<span class="first">Client</span>
+												<span>Histories VZW</span>
+											</li>
+											<li>
+												<span class="first">Categorie</span>
+												<span><a href="#">Social Media en Marketing</a></span>
+											</li>
+											<li>
+												<span class="first">Datum</span>
+												<span>Mei 10, 2023</span>
+											</li>
+											<li>
+												<span class="first">Delen</span>
+												<ul class="share">
+													<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
+													<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
+													<li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></a></li>
+													<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" /></a></li>
+													<li><a href="#"><img class="svg" src="img/svg/social/tik-tok.svg" alt="" /></a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+				</div>
+</div>
