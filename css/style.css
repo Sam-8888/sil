@@ -1797,7 +1797,7 @@ body.opened .kura_tm_hero .down{
 .kura_tm_contact .fields .last textarea{
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.1);
-	height: 44px;
+	height: 160px;
 	resize: none;
 	margin-bottom: 20px;
 	background-color: transparent;

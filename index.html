@@ -28,30 +28,8 @@
                                    <!-- /STYLES -->
 
 
-                                   <script type="text/javascript"
-                                           src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-                                   </script>
-                                   <script type="text/javascript">
-                                       (function () {
-                                           emailjs.init({
-                                               publicKey: "RWFhXQ4nDNN_BvVEq",
-                                           });
-                                       })();
+                                   <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-                                       var templateParams = {
-                                           from_name: 'Samuel',
-                                           message: 'You are another Tate fan!',
-                                       };
-
-                                       //emailjs.send('service_72w4hpb', 'template_4kyatdl', templateParams).then(
-                                       //    (response) => {
-                                       //        console.log('SUCCESS!', response.status, response.text);
-                                       //    },
-                                       //    (error) => {
-                                       //        console.log('FAILED...', error);
-                                       //    },
-                                       //);
-                                   </script>
                                </head>
 
 <body> 
@@ -802,13 +780,14 @@
 						<div class="fields">
 							<form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
 								<div class="returnmessage" data-success="Uw bericht is ontvangen, ik zal spoedig contact opnemen"></div>
-								<div class="empty_notice"><span>Vul alle velden in</span></div>
+								<div class="empty_notice" id="required_validator"><span>Vul alle velden in</span></div>
 								<div class="first">
 									<ul>
 										<li>
 											<input id="name" type="text" placeholder="Naam">
 										</li>
 										<li>
+											<div class="empty_notice" id="email_validator"><span>Ongeldige E-mail</span></div>
 											<input id="email" type="text" placeholder="Email">
 										</li>
 									</ul>
@@ -817,11 +796,8 @@
 									<textarea id="message" placeholder="Bericht"></textarea>
 								</div>
 								<div class="kura_tm_button" data-position="left">
-									<a id="send_message" href="#"><span>Verzenden</span><img class="svg" src="img/svg/right-arrow.svg" alt="" /></a>
+									<a id="send_message" href=""><span>Verzenden</span><img class="svg" src="img/svg/right-arrow.svg" alt="" /></a>
 								</div>
-
-								<!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
-
 							</form>
 						</div>
 					</div>
