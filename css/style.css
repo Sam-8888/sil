@@ -1832,7 +1832,7 @@ body.opened .kura_tm_hero .down{
 }
 .kura_tm_button a{
 	text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     font-size: 17px;
     display: block;
 	text-align: center;
